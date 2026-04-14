@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv /Users/jorgetec/Documents/Mio/skill-desing/awwwards-design-inspiration/awwwards-design-skill/SKILL.md /Users/jorgetec/Documents/Mio/skill-desing/awwwards-design-inspiration/SKILL.md)",
+      "Bash(mv /Users/jorgetec/Documents/Mio/skill-desing/awwwards-design-inspiration/awwwards-design-skill/references /Users/jorgetec/Documents/Mio/skill-desing/awwwards-design-inspiration/references)",
+      "Bash(rmdir /Users/jorgetec/Documents/Mio/skill-desing/awwwards-design-inspiration/awwwards-design-skill)",
+      "Bash(rm /Users/jorgetec/Documents/Mio/skill-desing/awwwards-design-inspiration.skill)",
+      "Bash(rm /Users/jorgetec/Documents/Mio/skill-desing/awwwards-design-inspiration.zip)"
+    ]
+  }
+}
