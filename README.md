@@ -15,6 +15,16 @@ Instead of generating generic, template-looking designs, this skill:
 
 ---
 
+## Installation
+
+### Claude Code — Marketplace
+```bash
+#install the skill
+/plugin install design-inspiration@JorgePoot9206
+```
+
+---
+
 ## Triggers
 
 Use this skill whenever you ask Claude things like:
@@ -52,76 +62,6 @@ The skill maps your project to the right Awwwards category automatically:
 
 ---
 
-## File structure
-
-```
-design-inspiration/
-├── .claude-plugin/
-│   └── marketplace.json      # Marketplace metadata
-├── skills/
-│   └── design-inspiration/
-│       ├── SKILL.md          # Main skill instructions
-│       └── references/
-│           └── categories.md # Full list of Awwwards categories, tags & tech filters
-└── README.md
-```
-
----
-
-## Installation
-
-### Claude Code — Marketplace
-```bash
-/plugin marketplace add JorgePoot9206/design-inspiration
-```
-
-### Claude Code — Manual
-```bash
-# Clone and copy skills directly
-git clone https://github.com/JorgePoot9206/design-inspiration.git
-cp -r design-inspiration/skills/* ~/.claude/skills/
-```
-
----
-
-## Design quality rules
-
-The skill enforces these standards on every output:
-
-- ✅ Always browses Awwwards **before** generating code — never works from memory alone
-- ✅ Mentions at least **2 real Awwwards sites** as references
-- ✅ Uses **CSS variables** for colors and typography
-- ✅ Includes at least **one animation** or micro-interaction
-- ✅ Fully **responsive**
-- ❌ Never produces Bootstrap-looking or Wix-template-style designs
-
----
-
-## Example output
-
-> *"hazme una landing page para un sitio católico"*
-
-Claude navigated to `awwwards.com/websites/social-responsibility/`, analyzed **OceanX 2025** (SOTD) and **Breakthrough Energy** (SOTD), extracted their design patterns, and generated a fully custom landing page with:
-
-- Warm cream palette `#FAF7F2` + gold `#C9A84C`
-- Cormorant Garamond editorial typography
-- Asymmetric hero layout with floating cards
-- Scroll-triggered fade animations
-- Dark mission band with Bible quote
-
----
-
-## Current design trends applied (2025–2026)
-
-- Editorial serif typography at large scale
-- Warm neutral backgrounds (cream, off-white)
-- Two-color palettes with high contrast
-- Asymmetric / broken grid layouts
-- Scroll storytelling
-- Minimal with one disruptive element
-- Sticky nav with glassmorphism
-
----
 
 ## License
 
