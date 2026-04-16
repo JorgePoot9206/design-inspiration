@@ -1,0 +1,15 @@
+{
+  "name": "design-inspiration-skills",
+  "version": "1.0.0",
+  "description": "Genera diseños web originales consultando Awwwards como fuente de inspiración",
+  "author": "JorgePoot9206",
+  "plugins": [
+    {
+      "name": "design-inspiration",
+      "description": "Generate inspired web designs by researching Awwwards award-winning sites before coding",
+      "source": "./",
+      "skills": ["design-inspiration"],
+      "strict": false
+    }
+  ]
+}

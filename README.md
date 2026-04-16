@@ -56,27 +56,30 @@ The skill maps your project to the right Awwwards category automatically:
 
 ```
 design-inspiration/
-├── SKILL.md                  # Main skill instructions
-└── references/
-    └── categories.md         # Full list of Awwwards categories, tags & tech filters
+├── .claude-plugin/
+│   └── marketplace.json      # Marketplace metadata
+├── skills/
+│   └── design-inspiration/
+│       ├── SKILL.md          # Main skill instructions
+│       └── references/
+│           └── categories.md # Full list of Awwwards categories, tags & tech filters
+└── README.md
 ```
 
 ---
 
 ## Installation
 
-### Claude.ai
-1. Download the `.skill` file from [Releases](../../releases)
-2. Go to **Claude.ai → Settings → Skills**
-3. Upload the `.skill` file
-
-### Claude Code
+### Claude Code — Marketplace
 ```bash
-# Option A — install from .skill file
-claude skills install design-inspiration.skill
+/plugin marketplace add JorgePoot9206/design-inspiration
+```
 
-# Option B — clone and install directly
-git clone https://github.com/JorgePoot9206/design-skill.git ~/.claude/skills/design-inspiration
+### Claude Code — Manual
+```bash
+# Clone and copy skills directly
+git clone https://github.com/JorgePoot9206/design-inspiration.git
+cp -r design-inspiration/skills/* ~/.claude/skills/
 ```
 
 ---
