@@ -1,14 +1,15 @@
 {
   "name": "design-inspiration-skills",
-  "version": "1.0.0",
-  "description": "Genera diseños web originales consultando Awwwards como fuente de inspiración",
-  "author": "JorgePoot9206",
+  "owner": {
+    "name": "JorgePoot9206",
+    "email": "jricardo.poot@gmail.com"
+  },
   "plugins": [
     {
       "name": "design-inspiration",
       "description": "Generate inspired web designs by researching Awwwards award-winning sites before coding",
       "source": "./",
-      "skills": ["design-inspiration"],
+      "skills": "./skills",
       "strict": false
     }
   ]
