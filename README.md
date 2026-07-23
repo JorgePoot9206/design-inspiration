@@ -17,11 +17,31 @@ Instead of generating generic, template-looking designs, this skill:
 
 ## Installation
 
-### Claude Code — Marketplace
+> **Prerequisito:** Tener [Claude Code](https://claude.ai/code) instalado.
+
+### Opción A — Marketplace (recomendado)
+
+Si es la primera vez o el marketplace no reconoce el plugin, primero regístralo:
 ```bash
-#install the skill
+/plugin marketplace add JorgePoot9206/design-inspiration
+```
+Luego instálalo:
+```bash
 /plugin install design-inspiration@JorgePoot9206
 ```
+
+### Opción B — Local (desde el repo)
+```bash
+git clone https://github.com/JorgePoot9206/design-inspiration.git
+/plugin install ./design-inspiration
+```
+
+### Verificar la instalación
+Una vez instalado, prueba con:
+```
+hazme una landing page para una cafetería
+```
+Claude debería navegar Awwwards automáticamente antes de generar el diseño.
 
 ---
 
